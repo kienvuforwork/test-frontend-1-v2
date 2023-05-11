@@ -1,0 +1,7 @@
+.section-1 {
+  padding: 3rem;
+  @include respond(tab-land) {
+    background-color: red;
+    @include grid-2-col;
+  }
+}

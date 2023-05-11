@@ -1,0 +1,53 @@
+.card-with-icon {
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 4rem 5.2rem 3.6rem 4rem;
+}
+
+.card__title {
+  margin-top: 2.4rem;
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #2d2a3e;
+}
+
+.card__description {
+  color: #7e7fa0;
+  line-height: 1.65;
+  letter-spacing: 0.025em;
+}
+
+.card__style {
+  @include flexCenter;
+  width: 9.3rem;
+  height: 9.3rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+  }
+}
+
+.card__style--1 {
+  background-color: #fff1f0;
+}
+.card__style--2 {
+  background-color: #f2e9fa;
+}
+.card__style--3 {
+  background-color: #e4f7fa;
+}
+.card__style--4 {
+  background-color: #e4e6fb;
+}
+.card__style--5 {
+  background-color: #fde9f4;
+}
+.card__style--6 {
+  background-color: #e4f9e6;
+}

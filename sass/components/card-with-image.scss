@@ -1,0 +1,54 @@
+.card-with-image {
+  box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.8rem;
+  padding-bottom: 1.5rem;
+  &__image {
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  &__title {
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+  }
+  &__description {
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    color: #817f8a;
+    padding-left: 2rem;
+  }
+}
+
+.design-icon {
+  @include flexCenter;
+  width: 10rem;
+  height: 3.6rem;
+  position: absolute;
+  background-color: #5d69fb;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  top: 100%;
+  padding: 0.6rem 1.9rem;
+  transform: translateY(-70%);
+}
+
+.triangle {
+  position: absolute;
+  top: 100%;
+  left: 10rem;
+  width: 0px;
+  height: 0px;
+  border: solid;
+  border-width: 2.5rem 0 0 1.7rem;
+  border-color: transparent transparent transparent #3e46a4;
+  transform: rotate(0deg);
+  transform: translate(0, -100%);
+}

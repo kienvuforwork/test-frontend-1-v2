@@ -1,0 +1,46 @@
+$circle-radius: 10.5rem;
+
+.text-box {
+  flex: 1;
+  position: relative;
+  padding-left: calc($circle-radius/2) - 1;
+  padding-top: calc($circle-radius/2) - 1;
+}
+
+.text-box__style {
+  width: $circle-radius;
+  height: $circle-radius;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+.text-box__title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: $colorSecondary;
+  height: calc($circle-radius/2) + 1;
+}
+
+.text-box__description {
+  line-height: 1.7;
+  color: $colorLightPurple;
+  letter-spacing: 0.037em;
+}
+
+.text-box__style--1 {
+  background-color: $textBoxStyle-1;
+}
+
+.text-box__style--2 {
+  background-color: $textBoxStyle-2;
+}
+
+.text-box__style--3 {
+  background-color: $textBoxStyle-3;
+}
+.text-box__style--4 {
+  background-color: $textBoxStyle-4;
+}
